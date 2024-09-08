@@ -13,6 +13,9 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/marble/marble-vendor.mk)
 
+# Call the BCR setup
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-marble/device.mk)
 
