@@ -54,6 +54,11 @@ blob_fixups: blob_fixups_user_type = {
         'vendor.qti.hardware.display.config-V2-ndk_platform.so',
         'vendor.qti.hardware.display.config-V2-ndk.so',
     ),
+    (
+         'vendor/lib64/hw/com.qti.chi.override.so',
+         'vendor/lib64/libcamxcommonutils.so',
+         'vendor/lib64/libmialgoengine.so',
+     ): blob_fixup().add_needed('libprocessgroup_shim.so'),
 (
         'vendor/lib64/libTrueSight.so',
         'vendor/lib64/libalLDC.so',
