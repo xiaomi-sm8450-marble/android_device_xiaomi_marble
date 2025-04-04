@@ -7,10 +7,11 @@
 # Inherit from marble device
 $(call inherit-product, device/xiaomi/marble/device.mk)
 
-# Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common Infinity-X configuration
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_marble
+# Device identifier. This must come after all inclusions
+PRODUCT_NAME := infinity_marble
 PRODUCT_DEVICE := marble
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -23,3 +24,18 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=marble_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Infinity-X stuff
+#TARGET_SHIPS_GOOGLE_DIALER := true
+TARGET_BOOT_ANIMATION_RES := 1080
+#TARGET_SHIPS_FULL_GAPPS := true
+USE_MOTO_CALCULATOR := false
+TARGET_SUPPORTS_BLUR := true
+TARGET_DISABLE_EPPE := true
+TARGET_HAS_UDFPS := false
+#TARGET_SHIPS_MIUI := true
+WITH_GAPPS := true
+
+# Maintainer & Build type
+INFINITY_BUILD_TYPE := OFFICIAL
+INFINITY_MAINTAINER := PabloEscobar_SharmagRit
