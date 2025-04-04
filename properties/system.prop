@@ -7,5 +7,12 @@ persist.camera.ois.video=1
 persist.vendor.camera.ois.enable=1
 persist.vendor.camera.ois.video=1
 
+# Infinity-X
+ro.product.marketname=Poco F5
+ro.infinity.soc=Snapdragon® 7+Gen 2
+ro.infinity.battery=5000 mAh
+ro.infinity.display=6.67″, 120Hz, 2400x1080
+ro.infinity.camera=64MP + 8MP + 2MP
+
 # Xiaomi
 ro.product.mod_device=marble_global
