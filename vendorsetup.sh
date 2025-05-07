@@ -4,6 +4,7 @@ echo 'Nuke Source stuffs'
 	rm -rf hardware/qcom-caf/sm8450/audio/primary-hal
 	rm -rf hardware/qcom-caf/sm8450/audio/pal
 	rm -rf hardware/xiaomi
+        rm -rf vendor/lineage-priv
 
 echo 'Cloning Basic Call Recorder Tree'
 	git clone https://github.com/xiaomi-sm8450-marble/android_vendor_bcr.git -b lineage-22.2 vendor/bcr
@@ -35,3 +36,6 @@ echo 'Cloning Vendor Tree'
 
 echo 'Cloning Vendor Common Tree'
 	git clone https://github.com/xiaomi-sm8450-marble/android_vendor_xiaomi_sm8450-common.git -b lineage-22.2 vendor/xiaomi/sm8450-common
+
+echo 'Cloning sign keys'
+        git clone https://github.com/pabloescobar-reborn/vendor_lineage-priv vendor/lineage-priv
