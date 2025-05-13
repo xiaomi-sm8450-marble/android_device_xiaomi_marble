@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Light
-TARGET_SENSOR_NOTIFIER_EXT := //device/xiaomi/marble:libsensor-notifier-ext-light
-
 # Inherit from xiaomi sm8450-common
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 
