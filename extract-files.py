@@ -42,6 +42,10 @@ blob_fixups: blob_fixups_user_type = {
         'vendor.qti.hardware.display.config-V2-ndk_platform.so',
         'vendor.qti.hardware.display.config-V2-ndk.so',
     ),
+    'vendor/lib64/libgf_hal.so': blob_fixup().binary_regex_replace(
+        rb'\[%s\] openat: %s xiaomi_sysfs_fd,failed:\[fingerdown\]',
+        b'[%s] openat: xiaomi_sysfs_fd,failed:[fingerdown]\x00\x00\x00',
+    ),
     (
         'vendor/lib64/libTrueSight.so',
         'vendor/lib64/libalLDC.so',
