@@ -95,6 +95,76 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
 
+# Audio
+vendor/bin/hw/vendor.qti.hardware.AGMIPC@1.0-service
+vendor/etc/init/vendor.qti.hardware.AGMIPC@1.0-service.rc
+vendor/lib64/lib_misound_asc.so
+vendor/lib64/libadm.so
+vendor/lib64/libagm.so
+vendor/lib64/libagm_compress_plugin.so
+vendor/lib64/libagm_mixer_plugin.so
+vendor/lib64/libagm_pcm_plugin.so
+vendor/lib64/libagmclient.so
+vendor/lib64/libagmmixer.so
+vendor/lib64/libar-acdb.so
+vendor/lib64/libar-gpr.so
+vendor/lib64/libar-gsl.so
+vendor/lib64/libar-pal.so
+vendor/lib64/libats.so
+vendor/lib64/libawcal.so
+vendor/lib64/libbatterylistener.so
+vendor/lib64/libfmpal.so
+vendor/lib64/libkaraokepal.so
+vendor/lib64/liblx-ar_util.so
+vendor/lib64/liblx-osal.so
+vendor/lib64/libmcs.so
+vendor/lib64/libpalclient.so
+vendor/lib64/libqtigefar.so
+vendor/lib64/libsndcardparser.so
+vendor/lib64/libxlog.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
+
+# Audio HAL
+vendor/lib64/android.hardware.audio.common@7.0-util.so
+vendor/lib64/hw/audio.primary.taro.so
+vendor/lib64/hw/gyro_fusion_interface.so
+vendor/lib64/hw/sound_trigger.primary.taro.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudiocloudctrl.so
+vendor/lib64/libaudioroute_ext.so
+vendor/lib64/libmmhardware.so
+vendor/lib64/libresampler.so
+
+# Audio configs
+vendor/etc/audio/sku_ukee/adsp_sleep_monitor.conf
+vendor/etc/audio/sku_ukee/mixer_paths_overlay_dynamic.xml
+vendor/etc/audio/sku_ukee/mixer_paths_overlay_static.xml
+vendor/etc/audio/sku_ukee/mixer_paths_ukee_mtp.xml
+vendor/etc/audio/sku_ukee/resourcemanager_ukee_mtp.xml
+vendor/etc/audio_cloud_control_white_list.xml
+vendor/etc/audio_policy_engine_configuration_mi.xml:vendor/etc/audio_policy_engine_configuration.xml
+vendor/etc/audio_policy_engine_default_stream_volumes.xml
+vendor/etc/audio_policy_engine_product_strategies.xml
+vendor/etc/audio_policy_engine_stream_volumes.xml
+vendor/etc/backend_conf.xml
+vendor/etc/card-defs.xml
+vendor/etc/kvh2xml.xml
+vendor/etc/microphone_characteristics.xml
+vendor/etc/models/acd/event.eai
+vendor/etc/models/acd/music.eai
+vendor/etc/models/acd/speech.eai
+vendor/etc/usecaseKvManager.xml
+
+# Audio effects
+vendor/lib64/soundfx/libasphere.so
+vendor/lib64/soundfx/libmisoundfx.so
+vendor/lib64/soundfx/libqcompostprocbundle.so
+vendor/lib64/soundfx/libqcomvisualizer.so
+vendor/lib64/soundfx/libqcomvoiceprocessing.so
+vendor/lib64/soundfx/libshoebox.so
+vendor/lib64/soundfx/libvolumelistener.so
+
 # Audio firmware
 vendor/firmware/aw882xx_acf.bin
 
@@ -948,6 +1018,18 @@ vendor/firmware/a730_zap.b02
 vendor/firmware/a730_zap.elf
 vendor/firmware/a730_zap.mbn
 vendor/firmware/a730_zap.mdt
+
+# Listen
+vendor/etc/vintf/manifest/manifest_non_qmaa.xml
+vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml
+vendor/lib64/libcapiv2svacnnvendor.so
+vendor/lib64/libcapiv2svarnnvendor.so
+vendor/lib64/libcapiv2uvvendor.so
+vendor/lib64/libeai_fixed.so
+vendor/lib64/libeai_float.so
+vendor/lib64/liblistensoundmodel2vendor.so
+vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so;MODULE_SUFFIX=_vendor
 
 # NFC configs
 vendor/etc/libnfc-nci.conf
