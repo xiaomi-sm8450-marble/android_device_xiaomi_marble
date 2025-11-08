@@ -18,15 +18,15 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 23049PCD8G
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="marble_global-user 15 AQ3A.241006.001 OS2.0.205.0.VMRMIXM release-keys" \
-    BuildFingerprint=POCO/marble_global/marble:15/AQ3A.241006.001/OS2.0.205.0.VMRMIXM:user/release-keys \
+    BuildDesc="marble_global-user 15 AQ3A.241006.001 OS2.0.210.0.VMRMIXM release-keys" \
+    BuildFingerprint=POCO/marble_global/marble:15/AQ3A.241006.001/OS2.0.210.0.VMRMIXM:user/release-keys \
     DeviceProduct=marble \
     SystemName=marble_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Infinity-X stuff
-#TARGET_SHIPS_GOOGLE_DIALER := true
+TARGET_SHIPS_GOOGLE_DIALER := true
 TARGET_BOOT_ANIMATION_RES := 1080
 #TARGET_SHIPS_FULL_GAPPS := true
 USE_MOTO_CALCULATOR := false
