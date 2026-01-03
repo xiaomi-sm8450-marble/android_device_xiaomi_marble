@@ -1,7 +1,7 @@
 echo 'Hello! we need to clone stuffs needed for your device, please wait till process complete'
 
 echo 'Cloning Device Common Tree'
-	git clone https://github.com/xiaomi-sm8450-marble/android_device_xiaomi_sm8450-common.git -b 16 device/xiaomi/sm8450-common
+	git clone https://github.com/xiaomi-sm8450-marble/android_device_xiaomi_sm8450-common.git -b audio device/xiaomi/sm8450-common
 
 echo 'Cloning MemeCamera Tree'
 	git clone https://github.com/xiaomi-sm8450-marble/android_device_xiaomi_miuicamera-marble.git -b 16 device/xiaomi/miuicamera-marble
@@ -26,4 +26,4 @@ echo 'Cloning Vendor Tree'
 	git clone https://github.com/xiaomi-sm8450-marble/android_vendor_xiaomi_marble -b 16 vendor/xiaomi/marble
 
 echo 'Cloning Vendor Common Tree'
-	git clone https://github.com/xiaomi-sm8450-marble/android_vendor_xiaomi_sm8450-common.git -b 16 vendor/xiaomi/sm8450-common
+	git clone https://github.com/xiaomi-sm8450-marble/android_vendor_xiaomi_sm8450-common.git -b audio vendor/xiaomi/sm8450-common
